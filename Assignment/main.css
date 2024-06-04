@@ -1,0 +1,253 @@
+main {
+  font-family: "Rubik", sans-serif;
+  background-color: #1e1e1e;
+}
+.experience-container {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, #2f262f, #352d23, #352d23);
+}
+.job-exp-container {
+  width: 95%;
+  margin: 0 auto;
+  color: var(--primary-font-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.experience-desc {
+  padding-top: 100px;
+  padding-left: 30px;
+  line-height: 2;
+  width: 50%;
+}
+.experience-desc h1 {
+  font-size: 44px;
+}
+.experience-desc h2 {
+  font-size: 18px;
+  font-style: italic;
+}
+.experience-desc p {
+  font-size: 16px;
+  line-height: 1.4;
+}
+.job-experience-container {
+  margin: 80px 30px;
+  width: 50%;
+  line-height: 2;
+}
+.designation-section-1 {
+  padding-top: 55px;
+}
+.designation-section {
+  padding-top: 30px;
+}
+.year {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.year h3 {
+  font-size: 18px;
+}
+.year p {
+  /* padding-right: 5px; */
+  font-size: 16px;
+}
+.designation {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 1px solid #5d5350;
+}
+
+.award-contact-container {
+  height: 100%;
+  /* background-color: #1e1e1e; */
+}
+.award-container {
+  padding: 80px;
+}
+.heading {
+  text-align: center;
+}
+.heading h1 {
+  color: var(--primary-font-color);
+  font-weight: 800;
+  font-size: 40px;
+}
+.heading p {
+  color: var(--secondary-font-color);
+  font-size: 18px;
+}
+
+.award-description {
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: black;
+  padding: 40px;
+  line-height: 2;
+  margin-top: 40px;
+}
+.product-design-heading {
+  color: var(--primary-font-color);
+  display: flex;
+  justify-content: space-between;
+}
+.product-design-heading h1 {
+  font-size: 24px;
+}
+.product-design-heading p {
+  font-size: 18px;
+}
+.product-design-desc {
+  color: var(--secondary-font-color);
+  line-height: 1.4;
+}
+
+.card-container {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  width: fit-content;
+  padding: 8px 12px;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 18px;
+}
+.card-1 {
+  width: fit-content;
+  padding: 8px 12px;
+  background-color: #fd6f00;
+  font-family: "Poppins", sans-serif;
+  color: var(--primary-font-color);
+  font-size: 18px;
+}
+
+.image-desc-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  line-height: 2;
+  margin: 50px 80px;
+}
+
+.image-desc h3 {
+  color: var(--primary-font-color);
+  font-size: 18px;
+}
+.image-desc h1 {
+  color: var(--primary-font-color);
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.image-desc p {
+  color: var(--secondary-font-color);
+  font-size: 18px;
+}
+.heading-for-contact {
+  text-align: center;
+  line-height: 2;
+}
+.heading-for-contact h1 {
+  color: var(--primary-font-color);
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.heading-for-contact h4 {
+  color: var(--primary-font-color);
+  font-size: 18px;
+  font-style: italic;
+}
+.address-bar {
+  background-color: #34261b;
+  margin: 30px 80px;
+  padding: 30px 70px;
+  line-height: 2.5;
+}
+.address-bar-heading {
+  color: var(--primary-font-color);
+  font-size: 40px;
+}
+.information {
+  font-size: 14px;
+}
+.name-email {
+  color: var(--primary-font-color);
+  display: flex;
+  gap: 30px;
+}
+.name-container {
+  width: 50%;
+  border-bottom: 1px solid var(--primary-font-color);
+}
+.email-container {
+  width: 50%;
+  border-bottom: 1px solid var(--primary-font-color);
+}
+.message-container {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  color: var(--primary-font-color);
+  border-bottom: 1px solid var(--primary-font-color);
+}
+
+.attach-file-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--primary-font-color);
+}
+.submit-button {
+  width: 183px;
+  height: 56px;
+  margin-top: 10px;
+  padding: 16px 40px;
+  font-size: 19px;
+  color: var(--primary-font-color);
+  background-color: #fd6f00;
+  border: none;
+}
+.last-part {
+  margin-top: 60px;
+  margin-bottom: 5px;
+  background-color: #000000;
+}
+.footer-logo {
+  color: #fd6f00;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+.quick-panel {
+  color: var(--primary-font-color);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.social-media-logo-container {
+  text-align: center;
+  padding: 50px;
+}
+.last-line {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  /* text-align: center;          */
+  color: var(--primary-font-color);
+  padding: 20px;
+  font-size: 19px;
+}

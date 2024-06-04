@@ -1,0 +1,193 @@
+.nav-banner-container{
+    width:100%;
+    height: 100%;
+    background-color: #1e1e1e;
+}
+/* nav stars */
+.nav-container{
+    /* width:95%; */
+    display: flex ;
+    align-items: center;
+    /* margin: 0 auto; */
+    padding-top: 60px;
+}
+
+.logo{
+    width:30%;
+    color: #FD6F00;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    padding: 5px 50px;
+}
+
+.menu{
+    width:70%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.menu-button-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu-button{
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.menu-button a{
+    text-decoration: none;
+    color: var(--primary-font-color);
+
+}
+.download-button{
+    background-color: #FD6F00;
+    /* padding: 8px 16px; */
+    border: none;
+    width: 188px;
+    height: 52px;
+    color: var(--primary-font-color);
+    font-family: "Rubik", sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+}
+/* nav ends  */
+/* banner starts */
+.banner-container{
+    display: flex ;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-left: 6px;
+}
+
+.intro{
+    padding-left: 50px;
+    padding-top: 70px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 1.5;
+}
+.intro {
+    color: var(--primary-font-color);
+    text-transform: uppercase ;
+}
+#star{
+    font-size: 40px;
+}
+.about{
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    color: var(--secondary-font-color);
+    padding: 0px 50px;
+}
+.design{
+    display: flex;
+    align-items: center;
+    color:var(--primary-font-color);
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    padding-left: 50px;
+    padding-top: 20px;
+    gap:20px;
+}
+.portfolio-button-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: "Rubik", sans-serif;
+    font-size: 17px;
+    color: var(--primary-font-color);
+    background-color: #FD6F00;
+    padding: 20px 40px; 
+    width:fit-content;
+    border-radius: 40px;
+}
+
+.arrow{
+    width:30px;
+    height: 30px;
+}
+
+.hire-me-button-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width:fit-content;
+    background-color: #343434;
+    margin: 30px 50px;
+    padding: 10px 15px;
+    border-radius: 70px;
+    border: 3px solid #676767;
+}
+
+.hire-me-button{
+    color: var(--primary-font-color);
+    font-size: 17px;
+}
+.social-media{
+    padding-left: 60px;   
+}
+
+.design-2{
+    display: flex;
+    align-items: center;
+    width:100%;
+    height: 80px;
+    background-color: #000000;
+    color: var(--primary-font-color);
+    font-size: 20px;
+    gap: 10px;
+    rotate: -5deg;
+}
+
+.description-exp-container{
+    display: flex;
+    /* gap: 300PX; */
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    margin: 0px  60px;
+}
+.descrip{
+    /* margin: 160px 60px;
+    margin-left: 60px; */
+    line-height: 1.5;
+    width:50%;
+}
+.descrip h1{
+    color: var(--primary-font-color);
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+}
+.descrip h3{
+    color: var(--secondary-font-color);
+}
+.exp{
+    color: var(--primary-font-color);
+    /* margin-top: 160px;
+    margin-right: 60px; */
+    width: 50%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: right;
+}
+.exp-desc h1{
+    font-family: "Rubik", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+}
+.exp-desc p{
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: right;
+}
